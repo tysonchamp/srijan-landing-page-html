@@ -131,4 +131,9 @@ document.addEventListener("DOMContentLoaded", () => {
         window.addEventListener('touchend', () => isDragging = false);
         window.addEventListener('touchmove', moveSlider, { passive: true });
     }
+
+    // Initialize Bootstrap tooltips
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
 });
