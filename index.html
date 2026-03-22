@@ -248,8 +248,7 @@
 
                 <div class="col-lg-7 text-center position-relative">
                     <!-- Abstract Map Representation -->
-                    <div class="mx-auto position-relative"
-                        style="max-width: 500px; width: 100%; aspect-ratio: 1;">
+                    <div class="mx-auto position-relative" style="max-width: 500px; width: 100%; aspect-ratio: 1;">
                         <!-- Styled Background for map proxy -->
                         <div class="map-container position-relative w-100 h-100 rounded-4 overflow-hidden shadow-sm"
                             style="background: url('images/map_bg.png') center/cover no-repeat;">
@@ -279,9 +278,12 @@
                                 style="top: 59%; left: 58%; cursor: pointer;" data-bs-toggle="tooltip"
                                 data-bs-placement="top" data-bs-html="true"
                                 data-bs-title="<b>Kumarganj Block</b><br>8 Villages Active<br>800 Farmers">
-                                <div class="node-pulse" style="background-color: var(--millet-yellow);"></div>
+                                <div class="node-pulse mx-auto" style="background-color: var(--millet-yellow);"></div>
                                 <span
-                                    class="node-label fw-bold mt-2 d-block bg-white px-2 py-1 rounded shadow-sm">Kumarganj</span>
+                                    class="node-label fw-bold d-block bg-white px-2 py-1 rounded shadow-sm position-absolute"
+                                    style="bottom: 51px; left: 50%; transform: translateX(-50%); white-space: nowrap;">Kumarganj</span>
+                                <span class="node-label fw-bold mt-2 d-block px-2 py-1 invisible"
+                                    style="height: 0px; margin: 0; opacity: 0; overflow: hidden;">Kumarganj</span>
                             </div>
 
                             <!-- Map Connections (SVG) -->
