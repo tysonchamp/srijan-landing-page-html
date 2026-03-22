@@ -64,32 +64,66 @@
             </div>
         </div>
 
-        <!-- Quick Impact Stats Overlay -->
-        <div class="impact-overlay container mt-auto">
-            <div class="row text-center text-white py-4 impact-glass">
-                <div class="col-md-3 col-sm-6 mb-3 mb-md-0">
-                    <div class="stat-icon"><i class="fa-solid fa-people-carry-box"></i></div>
-                    <h2 class="counter-value" data-target="3000">0</h2>
-                    <p class="mb-0 text-uppercase letter-spacing-1">Farmers Empowered</p>
+    </header>
+
+    <!-- Dashboard Entry & Stats Section -->
+    <section class="page-section bg-white" id="dashboard-entry">
+        <div class="container py-5 mt-4">
+            <div class="row align-items-center">
+                <!-- Left Column: Dashboard Preview -->
+                <div class="col-lg-6 mb-5 mb-lg-0 pe-lg-5 text-center text-lg-start">
+                    <span class="text-uppercase fw-bold" style="color: var(--leaf-green); letter-spacing: 2px;">Real-Time Data</span>
+                    <h2 class="mt-2 mb-4 d-flex align-items-center justify-content-center justify-content-lg-start fw-bold" style="color: var(--text-dark);">
+                        <i class="fa-solid fa-chart-line text-success me-3 fs-3"></i> Project Dashboard
+                    </h2>
+                    <p class="text-muted fs-5 mb-4">Track our progress, visualize the impact, and access transparent data across all project verticals.</p>
+                    <a href="dashboard.html" class="d-block position-relative rounded-4 overflow-hidden shadow-lg hover-lift text-decoration-none group-hover mx-auto mx-lg-0" style="max-width: 500px;">
+                        <img src="images/dashboard.png" alt="Live Dashboard" class="img-fluid w-100" style="object-fit: cover;">
+                        <!-- Overlay -->
+                        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center transition-all bg-dark bg-opacity-50">
+                            <span class="btn btn-success rounded-pill px-4 fw-bold shadow">
+                                Explore Live Dashboard <i class="fa-solid fa-arrow-right ms-2"></i>
+                            </span>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-md-3 col-sm-6 mb-3 mb-md-0">
-                    <div class="stat-icon"><i class="fa-solid fa-leaf"></i></div>
-                    <h2 class="counter-value" data-target="1000">0</h2><span>+</span>
-                    <p class="mb-0 text-uppercase letter-spacing-1">Acres Revived</p>
-                </div>
-                <div class="col-md-3 col-sm-6 mb-3 mb-sm-0">
-                    <div class="stat-icon"><i class="fa-solid fa-water"></i></div>
-                    <h2 class="counter-value" data-target="100">0</h2><span>%</span>
-                    <p class="mb-0 text-uppercase letter-spacing-1">Water Bodies Restored</p>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="stat-icon"><i class="fa-solid fa-seedling"></i></div>
-                    <h2 class="counter-value" data-target="5">0</h2><span>+</span>
-                    <p class="mb-0 text-uppercase letter-spacing-1">Sustainable Systems</p>
+
+                <!-- Right Column: Impact Stats -->
+                <div class="col-lg-6">
+                    <div class="row g-4 text-center">
+                        <div class="col-6">
+                            <div class="card h-100 border-0 shadow-sm p-4 rounded-4 hover-lift" style="background-color: var(--bg-light); border-bottom: 4px solid var(--leaf-green) !important;">
+                                <div class="stat-icon mb-3"><i class="fa-solid fa-people-carry-box fs-1" style="color: var(--leaf-green);"></i></div>
+                                <h2 class="counter-value fw-bold text-dark" data-target="3000">3,000</h2>
+                                <p class="mb-0 small text-uppercase fw-bold text-muted letter-spacing-1">Farmers Empowered</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card h-100 border-0 shadow-sm p-4 rounded-4 hover-lift" style="background-color: var(--bg-light); border-bottom: 4px solid var(--water-blue) !important;">
+                                <div class="stat-icon mb-3"><i class="fa-solid fa-leaf fs-1" style="color: var(--water-blue);"></i></div>
+                                <h2 class="fw-bold text-dark"><span class="counter-value" data-target="1000">1,000</span>+</h2>
+                                <p class="mb-0 small text-uppercase fw-bold text-muted letter-spacing-1">Acres Revived</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card h-100 border-0 shadow-sm p-4 rounded-4 hover-lift" style="background-color: var(--bg-light); border-bottom: 4px solid var(--soil-brown) !important;">
+                                <div class="stat-icon mb-3"><i class="fa-solid fa-water fs-1" style="color: var(--soil-brown);"></i></div>
+                                <h2 class="fw-bold text-dark"><span class="counter-value" data-target="100">100</span>%</h2>
+                                <p class="mb-0 small text-uppercase fw-bold text-muted letter-spacing-1">Bodies Restored</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card h-100 border-0 shadow-sm p-4 rounded-4 hover-lift" style="background-color: var(--bg-light); border-bottom: 4px solid var(--millet-yellow) !important;">
+                                <div class="stat-icon mb-3"><i class="fa-solid fa-seedling fs-1" style="color: var(--millet-yellow);"></i></div>
+                                <h2 class="fw-bold text-dark"><span class="counter-value" data-target="5">5</span>+</h2>
+                                <p class="mb-0 small text-uppercase fw-bold text-muted letter-spacing-1">Sustainable Systems</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </header>
+    </section>
 
     <!-- 2. About the Project Section -->
     <section class="page-section bg-white" id="about">

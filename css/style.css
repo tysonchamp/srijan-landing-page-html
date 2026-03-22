@@ -85,7 +85,7 @@ h6 {
     background-attachment: fixed;
     /* Parallax effect */
     background-size: cover;
-    min-height: 100vh;
+    min-height: 75vh;
     display: flex;
     flex-direction: column;
 }
